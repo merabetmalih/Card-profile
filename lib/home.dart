@@ -36,6 +36,10 @@ class ProfileHomePage extends StatelessWidget {
                   Container(
                     decoration: BoxDecoration(
                         color: Colors.green,
+                        border: Border.all(
+                          width: 5,
+                          color: Colors.red,
+                        ),
                         borderRadius: BorderRadius.circular(70)),
                     child: CircleAvatar(
                       backgroundImage: NetworkImage(
